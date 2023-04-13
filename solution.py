@@ -12,7 +12,7 @@ def solution(x: np.array, y: np.array) -> bool:
     alpha = 0.05
 
     if (p_value < alpha):
-        a = True
-    else:
         a = False
+    else:
+        a = True
     return a # Ваш ответ, True или False
